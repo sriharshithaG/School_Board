@@ -5,7 +5,8 @@ import lombok.Getter;
 
 @Getter
 @AllArgsConstructor
-public class AdminAlreadyFoundException extends RuntimeException {
+public class InvalidProgramTypeException extends RuntimeException {
+
 	/**
 	 * 
 	 */

@@ -5,10 +5,11 @@ import lombok.Getter;
 
 @Getter
 @AllArgsConstructor
-public class AdminAlreadyFoundException extends RuntimeException {
+public class ClassHourNotFoundException extends RuntimeException{
 	/**
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
 	private String message;
+
 }

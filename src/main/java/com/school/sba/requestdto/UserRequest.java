@@ -1,7 +1,7 @@
 package com.school.sba.requestdto;
 
 import com.school.sba.entity.School;
-import com.school.sba.enums.UserRole;
+
 
 import lombok.Getter;
 import lombok.Setter;
@@ -10,8 +10,8 @@ import lombok.Setter;
 @Setter
 public class UserRequest {
 	
-//	@NotNull(message = "user name should not be null")
-//	@NotBlank(message = "user name should not be empty")
+	//@NotNull(message = "user name should not be null")
+	//@NotBlank(message = "user name should not be empty")
 	private String userName;
 	
 //	@Size(min = 8, max = 20, message = "Password must be between 8 and 20 characters")
@@ -21,8 +21,8 @@ public class UserRequest {
 //			+ "one number"
 //			+ "one special character")
 	private String userPassword;
-//	
-//	@NotEmpty(message = "first name should not be empty")
+	
+	//@NotEmpty(message = "first name should not be empty")
 	private String userFirstName;
 	
 	//@NotEmpty(message = "last name should not be empty")
@@ -37,6 +37,6 @@ public class UserRequest {
 	
 	private School school;
 	
-	private UserRole userRole;
+	private String userRole;
 
 }
